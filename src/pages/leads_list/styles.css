@@ -1,0 +1,139 @@
+*{
+    
+    background: #224D74;
+}
+.logo {
+    padding: 10px;
+    width: 250px;
+    margin-left: 485px;
+}
+.form fieldset {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.th {
+    color: white;
+}
+.tbody {
+    color: white;
+}
+
+
+.filter fieldset input {
+    font-family: "Roboto";
+    background-color: #ffff;
+    color: #3C3C3C;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.title {
+    color: white;
+    padding: 10px;
+    font-size: 150%;
+    margin-left: 505px;
+    font-family: "Roboto";
+}
+.container {
+    width: 90vw;
+    height: 90vh;
+    display: block;
+}
+
+.filter fieldset {
+    background: #ffffff;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+.btnFilter{
+    background: #F79028;
+    padding: 15px;
+    text-decoration: none;
+    font-style: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: rgb(12, 11, 11);
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Roboto";
+}
+.register {
+    background: #F79028;
+    padding: 15px;
+    text-decoration: none;
+    font-style: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: rgb(12, 11, 11);
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Roboto";
+}
+.filter fieldset label {
+    color: #3c3c3c;
+    background: #FFFFFF;
+    font-size: 1.250rem;
+    padding: 5px;
+    margin-left: 25px;
+    font-family: "Roboto";
+    font-size: bold;
+}
+.filter {
+    padding: 10px;
+    color: white;
+    font-size: 150%;
+    font-family: "Roboto";
+    margin-left: 25px;
+  box-sizing: border-box;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+table {
+    margin-left: 18rem;
+}
+
+tr, td, button, i{
+    background-color: #ffff;
+    border-style: none;
+}
+th, td{
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+tr:nth-child(even){background-color: #f1f1f1}
+
+th{
+    background-color:#224D74;
+    color: white;
+    
+}
+.titleFilter{
+    background: white;
+    font-family: "Roboto";
+    margin-left: 25px;
+    margin-right: 20px;
+    color: black;
+}
+.titleFilter::after{
+    content:"";
+    height: 1px;
+    display:block;
+    width: 100%;
+    background-color: grey;
+}

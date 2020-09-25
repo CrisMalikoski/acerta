@@ -1,0 +1,124 @@
+*{
+    
+  background: #224D74;
+}
+.logo {
+  padding: 10px;
+  width: 250px;
+  margin-left: 485px;
+}
+.title {
+  color: white;
+  padding: 10px;
+  font-size: 150%;
+  margin-left: 505px;
+  font-family: "Roboto";
+}
+.container {
+  width: 90vw;
+  height: 90vh;
+}
+.form {
+  display:flex;
+  flex: 1;
+  justify-self: center;
+  justify-content: center;
+  margin-left: 20rem;
+  margin-right: 15rem;
+ 
+}
+.form fieldset {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+
+
+.form fieldset input {
+  font-family: "Roboto";
+  background-color: #ffff;
+  color: #3C3C3C;
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.form fieldset select {
+  font-family: "Roboto";
+  background-color: #ffff;
+  color: #3C3C3C;
+  margin: 8px 0;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.125rem;
+  
+  
+}
+.form fieldset label {
+  color: #3c3c3c;
+  background: #FFFFFF;
+  font-size: 1.250rem;
+  padding: 5px;
+  margin-left: 25px;
+  font-family: "Roboto";
+  font-size: bold;
+     
+}
+.btnCancel {
+  background:  #989898;
+  color: #020202;
+  padding: 15px;
+  font-style: none;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-top: 10px;
+  float: left;
+  font-family: "Roboto";
+}
+.btnRegister {
+  background: #F79028;
+  padding: 15px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: black;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+  float: right;
+  font-family: "Roboto";
+}
+.form fieldset option {
+  background: white;
+  border-radius: 5px;
+  font-size: larger;
+  font-family: "Roboto";
+}
+.titlezinho{
+  background: white;
+  font-family: "Roboto";
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.titlezinho::after{
+  content:"";
+  height: 1px;
+  display:block;
+  width: 100%;
+  background-color: grey;
+}

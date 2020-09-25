@@ -1,0 +1,26 @@
+{
+  "leads": [
+    {
+      "id": 1,
+      "nome": "João da Silva Siqueira",
+      "email": "joaosiqueira@gmail.com",
+      "cpf": "05537357054",
+      "estadoCivil": "Solteiro(a)",
+      "nomeConjugue": ""
+    }
+  ],
+  "tiposEstadoCivil": [
+    {
+      "nomeEstadoCivil": "Solteiro(a)"
+    },
+    {
+      "nomeEstadoCivil": "Casado(a)"
+    },
+    {
+      "nomeEstadoCivil": "Viúvo(a)"
+    },
+    {
+      "nomeEstadoCivil": "Separado(a)"
+    }
+  ]
+}
